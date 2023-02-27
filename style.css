@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0%;
 }
+.body{
+    background-color: rgb(253, 251, 251);
+}
 #cabecalho {
    background-color: #28ac9f;
    padding-bottom: 20px;
-   top: 0;
+   margin-bottom: 100px;
+   position: fixed;
+   width: 100%;
 }
 #titulo {
     width: 450px;
@@ -21,7 +26,7 @@
 #cabecalho li{
     display: inline;
     font-size: 20px;
-    color: rgba(44, 44, 44, 0.851); 
+    color:  rgba(44, 44, 44, 0.753); 
     text-transform: uppercase; 
     padding: 10px;
 }
@@ -31,6 +36,7 @@
 
 .estrutura {
     display: inline-flex;
+    margin-top: 100px;
 }
 .section{
     background-color: rgb(233, 228, 228);
@@ -46,23 +52,30 @@
     padding: 12px;
 }
 .section div{
-padding: 45px 0 45px 0;
+    padding: 40px 0 40px 0;
 }
 .section a{
     padding: 0 10px 0 10px;
 }
 #minha_foto {
     width: 400px;
-    margin: 100px;
+    margin: 80px 100px 70px 100px;
     border-radius: 100px;
-
+}
+.aside{
 }
 .aside h1{
-padding: 30px 0 30px 0;
+    padding: 30px 0 30px 0;
+}
+.aside p{
+    width: 400px;
+    padding: 10px 0 10px 0;
+    margin: auto;
+    color: rgba(44, 44, 44, 0.753);
 }
 .article {
     background-color: rgb(253, 251, 251);
-    color: rgba(44, 44, 44, 0.851); 
+    color: rgba(44, 44, 44, 0.851);
 }
 .article h1 {
     padding: 20px 0 30px 0;
@@ -75,63 +88,59 @@ padding: 30px 0 30px 0;
     text-transform: uppercase;
     padding: 20px 70px 30px;
 }
-#licoes_aprendidas {
+#licoes_aprendidas1 {
     color: rgba(44, 44, 44, 0.851); 
-
 }
-#licoes_aprendidas h1{
+#licoes_aprendidas1 h1{
     padding: 80px 70px 50px;
     font-size: 25px;
     text-transform: uppercase; 
 }
-#licoes_aprendidas ul{
+#licoes_aprendidas1 ol{
     display: inline-block;
 }
-#licoes_aprendidas li{
+#licoes_aprendidas1 li{
     font-size: 18px;
-    list-style: none;
-    padding: 15px 130px 15px;
-    margin-right: 130px;
+    list-style: decimal;
+    padding: 15px 0px 15px;
+    margin: 0 180px 0 180px;
     text-transform: uppercase; 
 }
 
-#licoes_a_aprender {
+#licoes_a_aprender1 {
     color: rgba(44, 44, 44, 0.851);
-    padding-bottom: 40px; 
-
+    padding-bottom: 70px; 
 }
-#licoes_a_aprender h1{
+#licoes_a_aprender1 h1{
     padding: 80px 70px 50px;
     font-size: 25px;
     text-transform: uppercase; 
 }
-#licoes_a_aprender ul{
+#licoes_a_aprender1 ul{
     display: inline-block;
 }
-#licoes_a_aprender li{
+#licoes_a_aprender1 li{
     font-size: 18px;
     list-style: none;
-    padding: 15px 130px 15px;
-    margin-right: 130px;
+    padding: 15px 0px 15px;
+    margin: 0 180px 0 180px;
     text-transform: uppercase; 
 }
-
-.rodape{
+#rodape{
     background-color: #28ac9f;
-    color: rgba(44, 44, 44, 0.851);
+    color:  rgba(44, 44, 44, 0.753);
     text-transform: uppercase;
     text-align: center;
-    height: 650px;
-
+    height: 550px;
 }
-
-.rodape h1{
-    padding: 70px 0 50px 0;
+#rodape h1{
+    padding: 60px 0 25px 0;
+    font-size: 35px;
 }
-.rodape ul{
+#rodape ul{
     display: inline-block;
 }
-.rodape li{
+#rodape li{
     list-style: none;
     padding: 40px 40px 30px 40px;
     margin: 30px 15px 20px 15px;
@@ -140,19 +149,19 @@ padding: 30px 0 30px 0;
     border: 2px solid  rgb(233, 228, 228);
     border-radius: 12px;
 }
-.rodape a{
+#rodape a{
     color:  rgba(233, 228, 228, 0.958);
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
-.rodape a:hover{
+#rodape a:hover{
     font-size: 21px;
 }
 #bloco1 , #bloco2, #bloco3, #bloco4{
     padding-top: 45px;
     font-size: 16px;
 }
-.rodape p{
+#rodape p{
     font-size: 15px;
     padding-top: 11px;
 }
